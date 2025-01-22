@@ -1,0 +1,35 @@
+<div class="container">
+  <!-- Left Panel for Email Layout (Logo, Title, Body) -->
+  <div class="left-panel">
+    <!-- Email Layout Display -->
+    <div *ngIf="emailLayout" [innerHTML]="emailLayout"></div>
+    <p *ngIf="base64String"><img [src]="base64String" alt="Selected Image" /></p>
+  </div>
+
+  <!-- Right Panel for Settings -->
+  <div class="right-panel">
+    <div class="settings-panel">
+      <h3>Settings</h3>
+      <label for="logo">Logo</label><br>
+        <div class="logo">
+          <input type="file" [(ngModel)]="emailData.imageUrls" id="logoUpload" accept="image/*" (change)="changeLogo($event)">
+          
+        </div>
+      <label for="title">Title</label>
+      <input id="title" [(ngModel)]="emailData.title" type="text" placeholder="Enter title" />
+
+      <label for="content">Content</label>
+      <quill-editor [(ngModel)]="emailData.content" [modules]="editorConfig"></quill-editor>
+
+      <!-- Image Upload Section -->
+<!--      <ngx-file-drop (onFileDrop)="onFileDrop($event)">-->
+<!--        <div class="file-drop-container">-->
+<!--          <p>Drag and drop image files here or click to upload</p>-->
+<!--        </div>-->
+<!--      </ngx-file-drop>-->
+
+      <!-- Save Button -->
+      <button (click)="saveTemplate()">Save Template</button>
+    </div>
+  </div>
+</div>

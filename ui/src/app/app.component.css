@@ -1,0 +1,72 @@
+/* General container styling */
+.container {
+  display: flex;
+  justify-content: space-between; /* Space out the panels */
+  padding: 20px;
+}
+.logo {
+      border: 1px solid black;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto 20px;
+    }
+/* Styling for the left panel (Email Layout) */
+.left-panel {
+  flex: 0 0 70%; /* Takes up 70% of the width for email content */
+  padding: 10px;
+}
+
+/* Styling for the right panel (Settings Panel) */
+.right-panel {
+  flex: 0 0 28%; /* Takes up 28% of the width for settings */
+  padding: 10px;
+  border-left: 1px solid #ccc; /* Optional: Add a border between the panels */
+}
+
+/* Optional styling for the settings panel */
+.settings-panel {
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.settings-panel h3 {
+  margin-bottom: 15px;
+}
+
+/* Style the input fields */
+.settings-panel input,
+.settings-panel .ql-container {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Optional styling for the file drop section */
+.file-drop-container {
+  background-color: #f4f4f4;
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* Style the save button */
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
