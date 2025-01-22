@@ -3,7 +3,7 @@ import sqlite3
 from sqlite3 import Error
 
 #app = Flask(__name__)
-app = Flask(__name__, static_folder='emailC/dist/email-c/browser')
+app = Flask(__name__, static_folder='ui/dist/email-c/browser')
 
 def create_connection():
     """ create a database connection to a SQLite database """

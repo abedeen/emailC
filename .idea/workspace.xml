@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c21ae013-2ab9-4a30-a8b0-393403c83d5a" name="Changes" comment="sec">
-      <change afterPath="$PROJECT_DIR$/.idea/emailC.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c21ae013-2ab9-4a30-a8b0-393403c83d5a" name="Changes" comment="sec3">
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +160,28 @@
       <option name="project" value="LOCAL" />
       <updated>1737560563367</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="sec1">
+      <created>1737560663016</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737560663016</updated>
+    </task>
+    <task id="LOCAL-00004" summary="sec2">
+      <created>1737560675928</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737560675928</updated>
+    </task>
+    <task id="LOCAL-00005" summary="sec3">
+      <created>1737560874424</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737560874424</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,7 +197,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sec" />
-    <option name="LAST_COMMIT_MESSAGE" value="sec" />
+    <MESSAGE value="sec1" />
+    <MESSAGE value="sec2" />
+    <MESSAGE value="sec3" />
+    <option name="LAST_COMMIT_MESSAGE" value="sec3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
